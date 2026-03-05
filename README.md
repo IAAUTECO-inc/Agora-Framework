@@ -158,9 +158,9 @@ See [LICENSE](LICENSE) for the full licence text.
 
 The Agora Framework is developed and maintained by **IAAUTECO Inc.** in partnership with the open source community.
 
-- **Primary Maintainer:** IAAUTECO Inc. — Open Source Systems & Sovereign AI Division
+- **Primary Maintainer:** IAAUTECO Inc.  | Sovereign Infrastructure
 - **Repository:** https://github.com/IAAUTECO-inc/Agora-Framework
-- **Contact:** governance@iaauteco.org
+- **Contact:** contact@iaauteco.ovh
 
 ---
 
