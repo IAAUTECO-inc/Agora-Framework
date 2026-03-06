@@ -1,43 +1,74 @@
-## Pull Request Summary
+<!--
+  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  AGORA FRAMEWORK — Pull Request Template
+  Before submitting, read CONTRIBUTING.md and CODE_OF_CONDUCT.md
+  Security-sensitive reports → see SECURITY.md (do not use PRs)
+  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+-->
 
-**Type of change** (select all that apply):
+## Classification
+
+**Type** — select all that apply:
+
 - [ ] `feat` — New content, template, or framework section
-- [ ] `fix` — Correction (factual, legal, structural, or typographic)
-- [ ] `docs` — Documentation improvement
+- [ ] `fix` — Factual, legal, regulatory, or structural correction
+- [ ] `docs` — Documentation improvement (style, clarity, structure)
 - [ ] `policy` — Policy template addition or revision
 - [ ] `i18n` — Translation or localisation
-- [ ] `chore` — Tooling, CI, metadata
-- [ ] `governance:proposal` — Significant governance change (triggers 14-day review period)
-- [ ] `governance:constitutional` — Constitutional change (triggers 30-day consultation period)
+- [ ] `chore` — Tooling, CI, metadata, repository hygiene
+- [ ] `governance:proposal` — Significant change · triggers **14-day review period**
+- [ ] `governance:constitutional` — Constitutional change · triggers **30-day consultation period**
+
+**Severity** (for `fix` type only):
+
+- [ ] Critical — Incorrect guidance that could cause legal or regulatory exposure
+- [ ] High — Material inaccuracy in compliance or normative content
+- [ ] Moderate — Inaccuracy with limited immediate impact
+- [ ] Low — Minor correction, broken link, formatting
 
 ---
 
-## Description
+## Summary
 
-<!-- 
-Provide a clear and concise description of the changes in this pull request.
-Explain WHAT you changed and WHY. Focus on rationale, not implementation detail.
--->
+<!-- What does this PR do? State the change clearly in 2–5 sentences.
+     Focus on WHAT and WHY. Reviewers will see the diff for HOW. -->
 
 ---
 
-## Related Issue(s)
+## Motivation and Context
 
-<!-- 
-Link all related issues. Use GitHub keywords to auto-close where appropriate.
-Example: Closes #42 | Addresses #17 | Related to #53
--->
+<!-- Why is this change necessary?
+     - What problem does it solve, or what gap does it address?
+     - If this is a regulatory update, cite the specific legislative change.
+     - If this is a correction, briefly describe the impact of the current state. -->
 
 ---
 
-## Regulatory and Standards Alignment
+## Related Issues
 
-<!-- 
-If this PR introduces or modifies content that references legislation, standards, or 
-normative documents, list them here with specific article/section references.
--->
+<!-- Link all related issues. Use closing keywords where appropriate.
+     Closes #     |     Addresses #     |     Related to #              -->
 
-| Reference | Relevance |
+---
+
+## Regulatory and Standards References
+
+<!-- If this PR modifies content that references legislation, standards,
+     or normative documents, complete this table.
+     Cite specific articles or sections — not just document titles. -->
+
+| Instrument | Article / Section | Relevance to this PR |
+|---|---|---|
+| | | |
+
+---
+
+## Changes Made
+
+<!-- List the files modified and briefly describe the change in each.
+     For documentation PRs, note any structural reorganisation. -->
+
+| File | Nature of Change |
 |---|---|
 | | |
 
@@ -45,62 +76,85 @@ normative documents, list them here with specific article/section references.
 
 ## Contributor Checklist
 
-Please ensure all applicable items are checked before requesting review.
+> Complete all items applicable to your contribution type before requesting review.
+> Leave N/A items unchecked with a note if genuinely not applicable.
 
-### Content Quality
-- [ ] Changes are factually accurate and, where applicable, verified against authoritative sources
-- [ ] Language is institutional English, clear, and accessible to both technical and non-technical audiences
-- [ ] All RFC 2119 keywords (`MUST`, `SHOULD`, `MAY`) are used correctly and consistently
-- [ ] New placeholders follow the `[ORGANISATION NAME]` / `[DATE]` convention
-- [ ] New sections include a brief purpose statement
+### Content and Accuracy
 
-### Structural Consistency
-- [ ] Document structure follows the conventions in `CONTRIBUTING.md`
-- [ ] Headings use ATX style (`#`, `##`, etc.)
+- [ ] All factual, legal, and technical claims are accurate and verified against authoritative sources
+- [ ] Regulatory references cite specific articles/sections, not document titles alone
+- [ ] RFC 2119 keywords (`MUST`, `SHOULD`, `MAY`, `SHALL`) are used correctly and consistently
+- [ ] No proprietary vendor dependencies introduced without open-source alternatives
+
+### Language and Style
+
+- [ ] Language is institutional English — clear, precise, and accessible to technical and non-technical audiences
+- [ ] Technical or legal terminology is explained on first use where necessary
+- [ ] No informal, colloquial, or marketing language
+
+### Structure and Formatting
+
+- [ ] Headings use ATX style (`#`, `##`, `###`)
 - [ ] Tables include header rows and `|---|` separators
-- [ ] Links are valid and accessible
-- [ ] Any new documents are referenced from the appropriate parent document or `README.md`
+- [ ] Code blocks use fenced syntax with language identifiers
+- [ ] All internal and external links are valid and accessible
+- [ ] New documents are referenced from `README.md` or the appropriate parent document
 
-### Licence and Copyright Compliance
+### Template-Specific *(if applicable)*
+
+- [ ] Placeholders follow the `[ORGANISATION NAME]` / `[DATE]` convention
+- [ ] Template includes an applicability statement (target organisation types)
+- [ ] Template includes a version history table at the end
+
+### Licence and Intellectual Property
+
 - [ ] All contributed content is original or derived from sources with a licence compatible with EUPL-1.2
-- [ ] Third-party content is attributed, identified with its licence, and REUSE-compliant headers are added where required
-- [ ] Commits are signed off with `git commit -s` (Developer Certificate of Origin)
-
-### Template-Specific (if applicable)
-- [ ] Template includes a version history table
-- [ ] Template applicability statement specifies target organisation types
-- [ ] All regulatory references cite specific articles/sections, not just document titles
+- [ ] Third-party content is identified, attributed, and carries a REUSE-compliant copyright header
+- [ ] Commits are signed off: `git commit -s` *(Developer Certificate of Origin)*
 
 ### Changelog
-- [ ] `CHANGELOG.md` has been updated under the `[Unreleased]` section to describe this change
+
+- [ ] `CHANGELOG.md` updated under `[Unreleased]` with a concise description of this change
 
 ### Process
-- [ ] I have searched existing issues and PRs to confirm this is not a duplicate
-- [ ] For significant or constitutional changes, an issue was opened and the appropriate review period was observed
-- [ ] I have declared any relevant affiliations or conflicts of interest in the issue or PR description
+
+- [ ] Searched existing issues and PRs — this is not a duplicate
+- [ ] For `governance:proposal` changes: issue opened and **14-day comment period** observed
+- [ ] For `governance:constitutional` changes: issue opened and **30-day consultation period** observed
+- [ ] Relevant affiliations or conflicts of interest declared below (if any)
 
 ---
 
-## Testing and Validation
+## Conflict of Interest Declaration
 
-<!-- 
-If applicable, describe how the changes were validated (e.g., document reviewed by a 
-legal expert, regulatory reference verified against official legislative source, 
-link checking performed, etc.)
+<!-- If your contribution reflects the position of a specific organisation,
+     institution, employer, or regulatory body, declare it here.
+     Transparency strengthens the legitimacy of the framework.
+     Write "None" if not applicable. -->
+
+---
+
+## Validation and Testing
+
+<!-- Describe how you validated the accuracy of your changes.
+     Examples: reviewed by a legal expert, verified against official legislative source,
+     cross-checked with OpenChain documentation, link validation performed. -->
+
+---
+
+## Notes for Reviewers
+
+<!-- Specific aspects you would like reviewers to focus on,
+     open questions, areas of uncertainty, or known limitations
+     of the current contribution. -->
+
+---
+
+<!--
+  By submitting this pull request, I confirm that:
+  1. My contribution is licensed under EUPL-1.2 or a compatible licence.
+  2. I agree to the Developer Certificate of Origin (https://developercertificate.org/).
+  3. I have read CONTRIBUTING.md and CODE_OF_CONDUCT.md.
+  4. I understand that security vulnerabilities must be reported via SECURITY.md,
+     not through pull requests or public issues.
 -->
-
----
-
-## Additional Notes for Reviewers
-
-<!-- 
-Any specific aspects you would like reviewers to focus on, open questions,
-or areas of uncertainty in the contribution.
--->
-
----
-
-*By submitting this pull request, I confirm that my contribution is licensed under the 
-European Union Public Licence v1.2 (EUPL-1.2) and that I agree to the Developer 
-Certificate of Origin. I have read and understood the [Contributing Guidelines](../CONTRIBUTING.md) 
-and the [Code of Conduct](../CODE_OF_CONDUCT.md).*
