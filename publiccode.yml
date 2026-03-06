@@ -1,0 +1,125 @@
+publiccodeYmlVersion: "0.3"
+
+name: Agora Framework
+url: "https://github.com/IAAUTECO-inc/Agora-Framework"
+landingURL: "https://github.com/IAAUTECO-inc/Agora-Framework"
+
+createdAt: "2025-01-10"
+releaseDate: "2025-06-01"
+softwareVersion: "1.0.0"
+
+developmentStatus: stable
+
+softwareType: standalone/other
+
+description:
+  en:
+    shortDescription: >
+      A reference framework for establishing and operating Open Source Program
+      Offices (OSPOs) in public administrations and mission-driven institutions.
+    longDescription: >
+      The Agora Framework provides a structured, auditable, and interoperable
+      methodology for organisations seeking to formalise their engagement with
+      open source software. Named after the ancient Greek civic assembly space —
+      the heart of democratic deliberation and public governance — Agora provides
+      the institutional architecture for an Open Source Program Office (OSPO):
+      policy instruments, governance models, compliance workflows, contribution
+      frameworks, and metrics aligned with European institutional standards.
+
+      The framework covers six core pillars: institutional mandate definition,
+      policy architecture, licence compliance and stewardship (aligned with
+      OpenChain ISO/IEC 5230), contribution governance (inbound, outbound, and
+      inner source), community and ecosystem engagement, and accountability metrics
+      (aligned with CHAOSS). All policy templates and governance documents are
+      designed for direct adaptation by public administrations, European
+      institutions, research organisations, and mission-driven enterprises.
+
+      Agora is aligned with the European Interoperability Framework (EIF),
+      the EU Open Source Strategy, the NIS2 Directive, and the REUSE Specification.
+      Documents are provided in Markdown, OOXML (Word), and ODF (LibreOffice)
+      formats to maximise institutional accessibility and toolchain independence.
+
+    documentation: "https://github.com/IAAUTECO-inc/Agora-Framework/tree/main/docs"
+    apiDocumentation: ""
+    features:
+      - OSPO institutional mandate template
+      - Open source policy framework (6 policy domains)
+      - Licence compliance workflow aligned with OpenChain ISO/IEC 5230
+      - Contribution governance model (inbound / outbound / inner source)
+      - Community and ecosystem engagement framework
+      - CHAOSS-aligned metrics and KPI catalogue
+      - European regulatory alignment matrix (EIF, NIS2, GDPR, EU OSS Strategy)
+      - Governance model for the framework itself
+      - Policy templates in Markdown, OOXML, and ODF formats
+      - publiccode.yml metadata for public administration software catalogues
+
+legal:
+  license: EUPL-1.2
+  mainCopyrightOwner: IAAUTECO Inc.
+  repoOwner: IAAUTECO Inc.
+  authorsFile: "AUTHORS"
+
+maintenance:
+  type: community
+  contacts:
+    - name: IAAUTECO Inc.
+      email: governance@iaauteco.org
+      affiliation: IAAUTECO Inc.
+
+localisation:
+  localisationReady: true
+  availableLanguages:
+    - en
+
+categories:
+  - knowledge-management
+  - it-development
+  - it-security
+  - digital-citizenship
+
+usedBy:
+  - IAAUTECO Inc.
+
+intendedAudience:
+  scope:
+    - government
+    - science-and-technology
+    - society
+  countries: []
+
+dependsOn:
+  open: []
+  proprietary: []
+  hardware: []
+
+it:
+  riuso:
+    codiceIPA: ""
+
+generic:
+  isBasedOn: ""
+  softwareStack: []
+
+roadmap: "https://github.com/IAAUTECO-inc/Agora-Framework/blob/main/GOVERNANCE.md#6-roadmap"
+
+logo: ""
+
+platforms:
+  - web
+  - linux
+  - windows
+  - mac
+
+tags:
+  - ospo
+  - open-source-governance
+  - digital-sovereignty
+  - policy-framework
+  - public-administration
+  - european-standards
+  - licence-compliance
+  - openchain
+  - reuse
+  - chaoss
+  - institutional
+  - interoperability
