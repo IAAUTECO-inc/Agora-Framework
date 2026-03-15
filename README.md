@@ -72,10 +72,7 @@ agora-framework/
 │       ├── ospo-policy-template.md    # OSPO Policy Template (Markdown)
 │       ├── ospo-policy-template.docx  # OSPO Policy Template (Word/OOXML)
 │       └── ospo-policy-template.odt   # OSPO Policy Template (ODF — LibreOffice)
-│
-└── articles/
-    ├── linkedin-article-1.md          # LinkedIn: Introducing Agora
-    └── linkedin-article-2.md          # LinkedIn: OSPO as Institutional Infrastructure
+
 ```
 
 ---
